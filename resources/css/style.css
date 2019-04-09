@@ -69,10 +69,53 @@ div.main-banner {
 div.main-banner-text {
   position: relative;
   background-color: white;
-  height: 5rem;
+  display: inline-block;
+  top: 14rem;
   padding: 1.5rem 5rem;
+}
+
+div.main-banner-text span {
   font-size: 2rem;
   color: black;
   font-weight: bold;
   line-height: 1.2;
+}
+
+/* features */
+
+div.features {
+  display: flex;
+  justify-content: center;
+}
+
+div.features .container {
+  display: flex;
+  justify-content: center;
+  width: 960px;
+  height: 8rem;
+  padding: 3rem 0;
+}
+
+.features div.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.features div.icons span {
+  text-align: center;
+}
+
+.container img.paper {
+  width: 3.5rem;
+}
+
+.container img.ruler, img.truck {
+  width: 5rem;
+}
+
+.container img {
+  padding-right: 6rem;
 }
