@@ -3,11 +3,11 @@
 html {
   font-size: 18px;
   line-height: 1.4;
+  font-family: Helvetica;
 }
 
 .container {
   max-width: 960px;
-  font-family: Helvetica;
 }
 
 body {
@@ -72,6 +72,7 @@ div.main-banner-text {
   display: inline-block;
   top: 14rem;
   padding: 1.5rem 5rem;
+  left: 60rem;
 }
 
 div.main-banner-text span {
@@ -102,6 +103,7 @@ div.features .container {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  padding-right: 6rem;
 }
 
 .features div.icons span {
@@ -116,6 +118,22 @@ div.features .container {
   width: 5rem;
 }
 
-.container img {
-  padding-right: 6rem;
+/* company info */
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+.title {
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
 }
