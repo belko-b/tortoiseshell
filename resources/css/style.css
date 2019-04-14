@@ -56,6 +56,36 @@ div.navigation li {
   padding-right: 2rem;
 }
 
+.truncated-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .truncated-menu {
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 560px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .truncated-menu {
+    display: block;
+  }
+
+
+  div.logo-name span {
+    display: none;
+    }
+}
+
 /* main banner */
 
 div.main-banner {
@@ -121,6 +151,8 @@ div.features .container {
 /* company info */
 
 .info {
+  display: flex;
+  flex-direction: column;
   width: 35%;
   margin-right: 5%;
   margin-bottom: 4rem;
@@ -136,4 +168,32 @@ div.features .container {
   background-color: cadetblue;
   font-weight: bold;
   color: white;
+}
+
+/* footer */
+
+div.footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
+  height: 9.5rem;
+  margin-left: 4rem;
+  width: 960px;
+}
+
+img.footer-img {
+  display: inline-block;
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+div.footer-name {
+  display: inline-block;
 }
